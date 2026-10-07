@@ -1,0 +1,23 @@
+[project]
+name = "analytics-lab"
+version = "0.1.0"
+description = "Лабораторная работа №1: анализ и прогнозирование розничных продаж"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.10",
+    "numpy>=2.2",
+    "pandas>=3.0.6",
+    "PyWavelets>=1.8",
+    "scikit-learn>=1.6",
+    "scipy>=1.15",
+    "seaborn>=0.13",
+    "statsmodels>=0.15",
+]
+
+[dependency-groups]
+dev = [
+    "nbclient>=0.10",
+    "nbformat>=5.10",
+]
